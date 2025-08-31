@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A lightweight portfolio website with a landing page and CV download.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "live-server src/pages",
+    "build": "echo 'No build step required.'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

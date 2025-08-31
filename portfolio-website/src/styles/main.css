@@ -1,0 +1,105 @@
+/* Main styles for the website */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add these styles at the end of main.css */
+
+.split-container {
+    display: flex;
+    height: calc(100vh - 80px); /* Subtract navbar height */
+    padding: 0 2rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.photo-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-section {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-image {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h1 {
+    margin-bottom: 1rem;
+    color: #35424a;
+}
+
+.content-section h2 {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .split-container {
+        flex-direction: column;
+        height: 100vh;
+        padding: 1rem;
+    }
+    
+    .photo-section,
+    .content-section {
+        flex: none;
+    }
+    
+    .profile-image {
+        max-height: 40vh;
+    }
+}
