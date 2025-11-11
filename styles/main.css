@@ -175,7 +175,9 @@ footer {
   }
 
   .profile-image {
-    height: 140px;
+    max-height: 15em;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .content-section {
