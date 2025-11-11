@@ -1,0 +1,26 @@
+[
+    {
+        "title": "[Functietitel]",
+        "company": "[Bedrijfsnaam]",
+        "start": "[Startmaand jaar]",
+        "end": "[Eindmaand jaar of 'Heden']",
+        "description": "[Korte functiebeschrijving]",
+        "responsibilities": [
+            "[Verantwoordelijkheid 1]",
+            "[Verantwoordelijkheid 2]",
+            "[Verantwoordelijkheid 3]"
+        ]
+    },
+    {
+        "title": "[Functietitel]",
+        "company": "[Bedrijfsnaam]",
+        "start": "[Startmaand jaar]",
+        "end": "[Eindmaand jaar]",
+        "description": "[Korte functiebeschrijving]",
+        "responsibilities": [
+            "[Verantwoordelijkheid 1]",
+            "[Verantwoordelijkheid 2]",
+            "[Verantwoordelijkheid 3]"
+        ]
+    }
+]

@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
     color: #2c3e50;
@@ -19,6 +18,7 @@ header {
 
 h1 {
     margin: 0;
+    margin-bottom: .5em;
     font-size: 2.5em;
 }
 
@@ -271,6 +271,51 @@ footer {
 }
 
 .contact-item a:hover {
+    color: #3498db;
+}
+
+/* Experience Section Styles */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.experience-item {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.experience-item .date {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.experience-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-item li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.experience-item li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
     color: #3498db;
 }
 
