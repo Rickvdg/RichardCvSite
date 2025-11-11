@@ -45,7 +45,7 @@ footer {
 
 .split-container {
     display: flex;
-    height: calc(100vh - 80px); /* Subtract navbar height */
+    height: calc(100vh - 100px); /* Subtract navbar height */
     padding: 0 4rem;
     gap: 4rem;
     align-items: center;
@@ -136,8 +136,7 @@ footer {
         flex-direction: column;
         padding: 2rem;
         gap: 2rem;
-        height: 100vh;
-        
+        /* height: 100vh; */
     }
     
     .photo-section,
@@ -156,6 +155,48 @@ footer {
     .profile-image {
         max-height: 50vh;
     }
+}
+
+/* Responsive tweaks for smaller screens (phones) */
+@media (max-width: 768px) {
+  .split-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .photo-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .profile-image {
+    height: 140px;
+  }
+
+  .content-section {
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .content-section h1 {
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+  }
+
+  .content-section h2 {
+    font-size: 1rem;
+    margin: 0.25rem 0;
+  }
+
+  .content-section p {
+    font-size: 0.95rem;
+  }
 }
 
 /* Contact Page Styles */

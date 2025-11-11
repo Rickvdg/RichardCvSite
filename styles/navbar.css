@@ -62,8 +62,26 @@ nav a.active {
     color: #000;
 }
 
-/* Add scroll effect */
-.navbar.scrolled {
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+/* tighter, stacked nav on small screens */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+  }
+
+  .navbar .social-link svg {
+    width: 18px;
+    height: 18px;
+  }
 }
