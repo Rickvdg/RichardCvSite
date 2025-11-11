@@ -27,7 +27,6 @@ function renderExperiences(experiences) {
             <h2>${escapeHtml(exp.title)} <span class="company">- ${escapeHtml(exp.company)}</span></h2>
             <p class="date">${escapeHtml(exp.start)} - ${escapeHtml(exp.end)}</p>
             <p class="description">${escapeHtml(exp.description)}</p>
-            ${Array.isArray(exp.responsibilities) && exp.responsibilities.length ? `<ul>${exp.responsibilities.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>` : ''}
         </section>
     `).join('');
 }

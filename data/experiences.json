@@ -1,26 +1,15 @@
 [
     {
-        "title": "[Functietitel]",
-        "company": "[Bedrijfsnaam]",
-        "start": "[Startmaand jaar]",
-        "end": "[Eindmaand jaar of 'Heden']",
-        "description": "[Korte functiebeschrijving]",
-        "responsibilities": [
-            "[Verantwoordelijkheid 1]",
-            "[Verantwoordelijkheid 2]",
-            "[Verantwoordelijkheid 3]"
-        ]
+        "title": "Freelance",
+        "company": "Wessels bouw / Dakdekkersbedrijf Admiraal",
+        "start": "okt 2025",
+        "end": "Heden",
+        "description": "[Korte functiebeschrijving]"
     },
     {
-        "title": "[Functietitel]",
-        "company": "[Bedrijfsnaam]",
-        "start": "[Startmaand jaar]",
-        "end": "[Eindmaand jaar]",
-        "description": "[Korte functiebeschrijving]",
-        "responsibilities": [
-            "[Verantwoordelijkheid 1]",
-            "[Verantwoordelijkheid 2]",
-            "[Verantwoordelijkheid 3]"
-        ]
+        "title": "Interim controller",
+        "company": "Hanab Installation Technology",
+        "start": "nov 2024",
+        "end": "okt 2025"
     }
 ]
